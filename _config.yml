@@ -1,9 +1,22 @@
-name: WeHandU by opencarecc
+name: WeHandU
+author: WeMake
 markdown: kramdown
 baseurl: 
-permalink: /blog/:year/:month/:day/:title/
-gems:
+permalink: blog/:year/:month/:day/:title/
+plugins:
   - jekyll-sitemap
-  - jekyll-paginate
-paginate: 10
-paginate_path: /blog/page:num/
+  # - jekyll-paginate
+# paginate: 10
+# paginate_path: /blog/page:num/
+exclude: [README.md]
+github: [metadata]
+
+title: "WeHandU by opencarecc"
+tagline: "This is the website for WeHandU project by opencarecc"
+
+# multilingual stuff
+index:
+  en:
+  it: it/index.html
+
+default_lang: "en"
