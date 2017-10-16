@@ -1,7 +1,7 @@
 name: WeHandU
 author: WeMake
 markdown: kramdown
-baseurl: 
+baseurl:
 permalink: blog/:year/:month/:day/:title/
 plugins:
   - jekyll-sitemap
@@ -20,3 +20,19 @@ index:
   it: it/index.html
 
 default_lang: "en"
+
+# Facebook OpenGraph stuff
+opengraph:
+  title: "WeHandU by opencarecc"
+  url: "http://opencarecc.github.io/wehandu/"
+  description: "This is the website for WeHandU project by opencarecc"
+  image_url: "http://opencarecc.github.io/wehandu/assets/OC-Logo-socials.png"
+
+# Twitter Card stuff
+twitter:
+  site: "WeHandU by opencarecc"
+  title: "WeHandU by opencarecc"
+  description: "This is the website for WeHandU project by opencarecc"
+  creator: "opencarecc"
+  domain: "http://opencarecc.github.io/wehandu/"
+  image_url: "http://opencarecc.github.io/wehandu/assets/OC-Logo-socials.png"
